@@ -1,0 +1,297 @@
+@font-face {
+    font-family: HoneyScript;
+    src: url(fonts/HoneyScript-Light.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Medium.ttf);
+}
+
+* {
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: -100px;
+    background-color: #900054;
+}
+
+.title01 {
+    font-family: "HoneyScript";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background {
+    /* height: 100px; */
+    background-image: url("resources/background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title02 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main-body {
+    background-image: url("resources/background-body.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.label1 {
+    font-size: 16px;
+}
+
+.label2 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart-icon {
+    height: 25px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hr-break-1 {
+    border-style: solid;
+    border-color: rgb(194, 190, 190);
+    border-width: 4px;
+}
+
+.logo-img {
+    height: 60px;
+    background-image: url(resources/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.search-btn {
+    height: 43px;
+}
+
+.link-1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.poster-img-1 {
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.poster-text {
+    color: rgb(58, 58, 58);
+    font-size: 22px;
+}
+
+.poster-caption {
+    margin-bottom: 150px;
+}
+
+.poster-caption-1 {
+    margin-bottom: 65px;
+    margin-right: 250px;
+}
+
+.poster-title {
+    font-size: 50px;
+    color: black;
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.card-img-top {
+    height: 26vh;
+}
+
+.side {
+    float: left;
+}
+
+.lbl1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pm1 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: aqua; */
+}
+
+.pm2 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 65px;
+    background-image: url("resources/paymentmethodimages/american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.addimg {
+    border-style: solid;
+    border-color: rgb(194, 190, 190);
+    border-width: 2px;
+}
+
+
+/* pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+/* pagination */
+
+.search-btn1 {
+    width: 100%;
+}
+
+
+/* single Product view csse */
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: white;
+    padding: 20px;
+}
+
+.product_qty {
+    width: 105px;
+    height: 45px;
+    padding: 7px;
+}
+
+.qty_buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px #e5e5e5;
+    padding: 2px;
+}
+
+.qty_inc,
+.qty_dec {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.qty_inc {
+    padding-bottom: 2px;
+    border-top-right-radius: 5px;
+}
+
+.qty_dec {
+    padding-top: 2px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* single Product view csse */
+
+.emptyview {
+    height: 350px;
+    background-image: url("resources/1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.emptycart {
+    height: 400px;
+    background-image: url("resources/cart/emptycart.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.invoiceHeaderImg {
+    height: 80px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.message_box,
+.chat_box {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.first_place {
+    height: 100px;
+    background-image: url("resources/gold1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
